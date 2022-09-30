@@ -1,13 +1,13 @@
+abstract class Animal {
+    public nome: string;
+    public idade: number
+    public emitirSom: string
 
-
-
-class Animal {
-
-
-
-
-
-
+    constructor(nome: string, idade: number, emitirSom: string, ) {
+        this.nome = nome
+        this.idade = idade
+        this.emitirSom = emitirSom
+    }
 }
 
-export {Animal};
+export { Animal };
